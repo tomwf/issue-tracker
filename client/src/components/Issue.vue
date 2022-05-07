@@ -79,7 +79,7 @@ export default {
 </script>
 
 <template>
-  <div :data-id="id" :data-assigned-to="assignedTo" :data-status-text="statusText" :data-open="open" class="p-8 grid grid-cols-card grid-rows-card bg-white rounded-lg mb-4 cursor-pointer dark:bg-dark-gray" @click="handleClick">
+  <div :data-id="id" :data-assigned-to="assignedTo" :data-status-text="statusText" :data-open="open" class="p-8 grid grid-cols-card grid-rows-card bg-white rounded-lg mb-4 cursor-pointer dark:bg-dark-gray transition" @click="handleClick">
     <span class="col-start-1 col-end-2 row-start-1 row-end-2 text-gray-400">{{ new Date(date).toLocaleDateString() }}</span>
     <span class="col-start-1 col-end-2 row-start-3 row-end-4 font-bold text-2xl overflow-hidden text-ellipsis whitespace-nowrap">{{ title }}</span>
     <span class="col-start-1 col-end-2 row-start-4 row-end-5 overflow-hidden text-ellipsis whitespace-nowrap self-end">{{ text }}</span>

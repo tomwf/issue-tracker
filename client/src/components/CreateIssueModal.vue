@@ -53,7 +53,7 @@ export default {
         <div class="flex justify-between items-center mt-2 my-8">
           <h1 class="font-bold text-3xl">New Issue</h1>
           <button class="grid place-content-center" @click="hideModal">
-            <span inline="true" style="font-size: 2rem;" class="material-icons hover:text-gray-500 transition">close</span>
+            <span inline="true" style="font-size: 2rem;" class="material-icons hover:text-gray-500">close</span>
           </button>
         </div>
         <form id="testForm">
@@ -74,7 +74,7 @@ export default {
           </div>
           <label class="block mb-2">Status text</label>
           <input class="block w-full border rounded py-2 px-3 mb-4 dark:bg-dark-gray dark:border-none" type="text" name="status_text">
-          <button class="bg-violet-700 rounded-full px-8 py-4 text-white font-semibold mx-auto block hover:bg-violet-500 transition" type="submit" @click="handleSubmit">Submit Issue</button>
+          <button class="bg-violet-700 rounded-full px-8 py-4 text-white font-semibold mx-auto block hover:bg-violet-500" type="submit" @click="handleSubmit">Submit Issue</button>
         </form>
       </div>
     </div>

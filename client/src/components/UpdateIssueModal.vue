@@ -81,7 +81,7 @@ export default {
         <div class="flex justify-between items-center mb-4">
           <h1 class="font-bold text-3xl">Update Issue</h1>
           <button class="grid place-content-center" @click="hideModal">
-            <span inline="true" style="font-size: 2rem;" class="material-icons hover:text-gray-500 transition">close</span>
+            <span inline="true" style="font-size: 2rem;" class="material-icons hover:text-gray-500">close</span>
           </button>
         </div>
         <form id="testForm2">
@@ -105,8 +105,8 @@ export default {
           <label class="block mb-4"><input type="checkbox" name="open"> Check to close issue</label>
 
           <div class="flex gap-8">
-            <button class="bg-red-500 rounded-full px-8 py-4 text-white font-semibold mx-auto block hover:bg-red-400 transition" type="submit" @click="handleDelete">Delete Issue</button>
-            <button class="bg-violet-700 rounded-full px-8 py-4 text-white font-semibold mx-auto block hover:bg-violet-500 transition" type="submit" @click="handleSubmit">Update Issue</button>
+            <button class="bg-red-500 rounded-full px-8 py-4 text-white font-semibold mx-auto block hover:bg-red-400" type="submit" @click="handleDelete">Delete Issue</button>
+            <button class="bg-violet-700 rounded-full px-8 py-4 text-white font-semibold mx-auto block hover:bg-violet-500" type="submit" @click="handleSubmit">Update Issue</button>
           </div>
         </form>
       </div>
