@@ -1,8 +1,11 @@
 # Issue Tracker
+
 A simple web app to track issues.
+
 ![](./screenshot.png)
 
 ## How To Use
+
 ```bash
 git clone https://github.com/tomwf/issue-tracker.git
 ```
@@ -24,4 +27,5 @@ http://localhost:3000
 ```
 
 ## Link
+
 Live Demo: [Issue Tracker](https://tomwf-issue-tracker.herokuapp.com/)
