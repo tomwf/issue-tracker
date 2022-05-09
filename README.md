@@ -21,7 +21,7 @@ npm start
 ```
 Open your browser and visit:
 ```
-localhost:3000
+http://localhost:3000
 ```
 
 ## Links
