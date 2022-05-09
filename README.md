@@ -24,5 +24,5 @@ Open your browser and visit:
 http://localhost:3000
 ```
 
-## Links
-Live Site URL: [Issue Tracker](https://tomwf-issue-tracker.herokuapp.com/)
+## Link
+Live Demo: [Issue Tracker](https://tomwf-issue-tracker.herokuapp.com/)
