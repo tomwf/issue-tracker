@@ -2,7 +2,7 @@
 A simple web app to track issues.
 ![](./screenshot.png)
 
-## How To use
+## How To Use
 ### Development
 ```bash
 git clone https://github.com/tomwf/issue-tracker.git
