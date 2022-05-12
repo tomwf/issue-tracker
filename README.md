@@ -17,9 +17,6 @@ Install the dependencies:
 ```bash
 npm i
 ```
-
-## Usage
-
 Run the local dev environment:
 ```bash
 npm start
