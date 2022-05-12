@@ -4,7 +4,7 @@ A simple web app to track issues.
 
 ![](./screenshot.png)
 
-## How To Use
+## Installation
 
 ```bash
 git clone https://github.com/tomwf/issue-tracker.git
@@ -17,6 +17,9 @@ Install the dependencies:
 ```bash
 npm i
 ```
+
+## Usage
+
 Run the local dev environment:
 ```bash
 npm start
