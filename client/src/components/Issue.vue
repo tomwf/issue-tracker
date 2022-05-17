@@ -84,7 +84,7 @@ export default {
     <span class="col-start-1 col-end-2 row-start-3 row-end-4 font-bold text-2xl overflow-hidden text-ellipsis whitespace-nowrap">{{ title }}</span>
     <span class="col-start-1 col-end-2 row-start-4 row-end-5 overflow-hidden text-ellipsis whitespace-nowrap self-end">{{ text }}</span>
     <span class="col-start-2 col-end-3 row-start-1 row-end-2 justify-self-end text-gray-400">{{ createdBy }}</span>
-    <span v-if="open === true" class="col-start-2 col-end-3 row-start-3 row-end-5 justify-self-end self-center bg-emerald-100 rounded-lg font-bold text-emerald-500 uppercase w-32 py-4 flex items-center justify-center gap-2"><span class="material-icons" style="font-size: .8rem;">circle</span>open</span>
-    <span v-if="open === false" class="col-start-2 col-end-3 row-start-3 row-end-5 justify-self-end self-center bg-orange-100 rounded-lg font-bold text-orange-500 uppercase w-32 py-4 flex items-center justify-center gap-2"><span class="material-icons" style="font-size: .8rem;">circle</span>closed</span>
+    <span v-if="open === true" class="col-start-2 col-end-3 row-start-3 row-end-5 justify-self-end self-center bg-emerald-100 rounded-lg font-bold text-emerald-700 uppercase w-32 py-4 flex items-center justify-center gap-2"><span class="material-icons" style="font-size: .8rem;">circle</span>open</span>
+    <span v-if="open === false" class="col-start-2 col-end-3 row-start-3 row-end-5 justify-self-end self-center bg-orange-100 rounded-lg font-bold text-orange-700 uppercase w-32 py-4 flex items-center justify-center gap-2"><span class="material-icons" style="font-size: .8rem;">circle</span>closed</span>
   </div>
 </template>
